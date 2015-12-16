@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta name="viewport" content="width=420px, initial-scale=1">
+    <meta name="viewport" content="width=420, initial-scale=1">
     <meta charset="UTF-8">
     <link rel="shortcut icon" type="image/png" href="favicon.ico">
     <link rel="stylesheet" href="./awsbot.css">
     <title>Easing Quantitively // www.awsbot.com</title>
+
   </head>
   <body>
     <div class="wrapper">
       <div class="block">
-        <img class="robot" src="robot.png" />
+        <img class="robot" src="robot_1.png" />
       </div>
       <div class="block">
         <p class="bash">
@@ -24,6 +25,10 @@
         </p>
       </div>
     </div>
+    <script>
+      var num = Math.floor(Math.random() * 5 + 1);
+      document.getElementsByClassName("robot")[0].src = 'robot_' +num+'.png';
+    </script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

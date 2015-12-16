@@ -26,8 +26,13 @@ html, body {
 }
 .robot {
   margin: auto;
-  height: 127px;
-  width:82px;
+  height: 280px;
+  width:280px;
+}
+.error_robot {
+  margin: auto;
+  height: 100px;
+  width: 100px;
 }
 .bash {
   max-width: 400px;
@@ -35,12 +40,4 @@ html, body {
   margin-right: auto;
   padding-top: 26px;
   text-align: left;
-}
-a,a:visited { 
-  text-decoration: none;
-}
-
-a:hover { 
-  text-decoration: underline;
-  cursor: pointer; 
 }
